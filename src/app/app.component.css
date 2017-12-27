@@ -1,0 +1,65 @@
+.calendar-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.calendar-indicator {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  margin: 10px auto 0;
+}
+
+.current-date {
+  text-align: center;
+  flex-basis: 400px;
+  flex-shrink: 1;
+  font-size: 20pt;
+  margin-top: 7px;
+}
+
+.prev-btn {
+  float: left;
+  flex-grow: 1;
+}
+
+.next-btn {
+  float: right;
+  flex-grow: 1;
+}
+
+.calendar-header {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.day-of-weeks {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 18pt;
+}
+
+.calendar-tile {
+  background-color: cyan;
+}
+
+.calendar-tile-content {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-tile-date {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 15pt;
+}
+
+.grid-tile-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+
+}
